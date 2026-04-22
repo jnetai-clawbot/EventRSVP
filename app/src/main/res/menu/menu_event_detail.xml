@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add_guest"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Add Guest"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="Share Event"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_export"
+        android:title="Export Guests"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_delete_event"
+        android:title="Delete Event"
+        app:showAsAction="never" />
+
+</menu>
